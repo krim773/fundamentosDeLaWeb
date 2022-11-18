@@ -1,0 +1,30 @@
+* {
+    font-family: cursive;
+}
+
+h1 {
+    font-size: 60px;
+    color: white;
+    text-align: left;
+    background-color: black;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    font-size: 40px;
+    font-style: italic;
+    background-color:purple;
+}
+
+h3 {
+    color: blueviolet;
+    text-align: right;
+    text-decoration: underline;
+    background-color: cyan;
+}
+
+span {
+    color: cyan;
+}
