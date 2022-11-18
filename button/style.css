@@ -1,0 +1,43 @@
+
+*{
+    font-family: cursive;
+    margin-bottom: .5%;
+    margin-left: 1%;
+    
+}
+
+::placeholder{
+    color: cyan;
+}
+
+#search {
+    margin-top: 5%;
+    text-align: center;
+    font-size: 25px;
+    height: 40px;
+    width: 200px;
+    border: 3px solid cyan;
+    border-radius: 20px;
+    
+}
+
+#buttonPlus {
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    border-radius: 100%;
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+}
+
+#create {
+    font-size: 25px;
+    color: aliceblue;
+    height: 55px;
+    width: 300px;
+    background-color: #04518b;
+    border: 2px solid black;
+    box-shadow: 9px 7px 2px 1px black;
+
+}
