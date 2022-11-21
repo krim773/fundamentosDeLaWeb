@@ -1,0 +1,60 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    background-color: lightblue;
+    }
+
+h1 {
+    text-align: center;
+}
+
+.contenedor{
+    align-items: center;
+    justify-content: center;
+    margin-left: 23%;
+}
+
+
+.arriba, .final, .medio{
+    display: flex;  
+    justify-content: space-between;
+    margin: 20px;
+
+}
+
+
+.arriba{
+    background-color: cyan;
+    width: 60%; 
+    padding: 15px;
+    border: 5px solid cyan;
+
+}
+
+.medio{
+    background-color: pink;
+    width: 60%;
+    padding: 15px;
+    border: 5px solid pink;
+    justify-content: center;
+}
+
+.final{
+    background-color: white;
+    width: 60%;
+    padding: 15px;
+    border: 5px solid white;
+
+}
+
+img {
+    height: 200px;
+    
+}
+
+p{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
