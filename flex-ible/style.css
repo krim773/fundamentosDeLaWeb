@@ -1,0 +1,25 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+.row{
+    display: flex;
+}
+.col, .col-2, .col-3{
+    background-color: rgb(37, 4, 97);
+    height: 55px;
+    padding: 20px;
+    border: 1px solid black;
+    flex: 1;
+
+}
+
+.col-2{
+    flex: 2;
+
+}
+
+.col-3{
+    flex: 3;
+
+}
