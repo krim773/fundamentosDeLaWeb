@@ -1,0 +1,68 @@
+/* Resetear los valores del CSS */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  estilos de la clase padre llamada contenedor */
+
+.contenedor {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* estilos de la clase hijo tarjeta-de-usuario*/
+
+.tarjeta-de-usuario {
+    width: 100%;
+    background-color: white;
+    border: 5px solid black;
+    margin-bottom: 35px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.header-perfil{
+    height: 156px;
+    background-color: rgb(10, 124, 218);
+    margin-bottom: 80px;
+}
+
+.body-usuario {
+    padding: 16px;
+    margin: 55px;
+}
+
+/* esta parte del css servira para ajustar la foto de perfil para que quede igual al ejemplo*/
+
+.usuario-img {
+    height: 200px;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+
+
+img {
+    height: 30px;
+}
+
+/* Este fragmento de codigo servira para adaptar al contenedor las siguientes etiquetas de esa clase*/
+.body-usuario h1,
+.body-usuario h2,
+.body-usuario p {
+    margin: 12px;
+    margin-left: -40px;
+    
+}
+
+
