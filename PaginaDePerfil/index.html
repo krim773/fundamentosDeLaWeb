@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Perfil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Primeramente se empezara con el nav de la pagina de perfil-->
+    <div class="nav">
+        <h2 class="nav-title">Profile</h2>
+        <div class="nav-links">
+            <a href="#" class="nav-a">Home</a>
+            <a href="#" class="nav-a">My Profile</a>
+            <a href="#" class="nav-a">Find Conections</a>
+            <button class="boton-nav">Sign Out</button>
+        </div>
+    </div>
+    <!-- div que contendra todo el resto de la pagina-->
+    <div class="contenedor">
+        <!--El segundo div en crear sera el contenedor que albergara los siguientes divs de la izquierda-->
+        <div class="contenedor-izquierda">
+            <div class="izquierda_display">
+
+                <!--Este div tendra a la tarjeta usuario-->
+                <div class ="tarjeta-de-usuario">
+                    <!--header dentro del div para crear la franja superior-->
+                    <div class="header-perfil">
+                        <img src="icons/user-circle.png" alt="foto de perfil"
+                        class="usuario-img">
+                    </div>
+
+                    <!--Contenido de la tarjeta usuario-->
+                    <div class="body-usuario">
+                        <h1>Lucas Martinez</h1>
+                        <h2>
+                            <img src="icons/map-marker.png" alt="pin de gps" class="imagen-peque"
+                            >
+                            Encarnacion
+                        </h2>
+                        <p>Desarrollador independiente</p>
+                        <br>Master od shadows, and the internet.
+                        <p>
+                            <a href="#">
+                                <img src="icons/gear.png" alt="engranaje" class="imagen-peque">
+                                Edit Profile
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="div_izquierda_2">
+                    <div class="conection_request_izquierda"><h3>  Education</h3></div>
+                    <h3>Coding Dojo - Full Stack</h3>
+                    <p>Dec 2019 - Mar 2020</p>
+                    <h4>Triple black belt in Python, MERN and C++...</h4>
+                </div>
+            </div>    
+            
+            <!--Este div es para los contenidos de la derecha-->
+            <div class="contenedor-derecha">
+                <div class="lista-conexion">
+                    <div class="conection_request">
+                        <div class="notificaciones"> <p>2</p> </div> 
+                        <div class="col_2"> <p> Conection Request</p></div>
+                    </div>
+                    <p> 
+                        <img src="images/todd-s.jpg" alt="todd-s" class="fotos_usuarios">
+                        Todd E 
+                        <img src="icons/accept-circle.png" alt="accept-circle" class="aceptar_rechazar">
+                        <img src="icons/close-circle.png" alt="close-circle" class="aceptar_rechazar"> 
+                    </p>
+                    <p>
+                        <img src="images/phil-s.jpg" alt="phil-s" class="fotos_usuarios"> 
+                        Phil K
+                        <img src="icons/accept-circle.png" alt="accept-circle" class="aceptar_rechazar">
+                        <img src="icons/close-circle.png" alt="close-circle" class="aceptar_rechazar">
+
+                    </p>
+                </div>
+
+                <div class="lista-conexion-2">
+                    <div class="conection_request">
+                        <div class="notificaciones_2"> <p>500+</p></div>
+                        <div class="col_2"><p>Your Connections</p></div>
+                    </div>
+                    
+                    <p>
+                        <img src="images/adrien-s.jpg" alt="adrien-s" class="fotos_usuarios"> Adrien D </p>
+                    <p>
+                        <img src="images/anne-s.jpg" alt="anne" class="fotos_usuarios"> Anne J</p>
+                    <p>
+                        <img src="images/alayne-s.jpg" alt="alayne-s" class="fotos_usuarios"> Alayne</p>
+                    <p>
+                        <img src="images/arry-s.jpg" alt="arry-s" class="fotos_usuarios"> Arry</p>
+                    <div class="view">
+                        <a href="#">
+                            <p>View More</p> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
